@@ -1,0 +1,166 @@
+.img_left {
+	float: left;
+	margin: 0 20px 20px 3px;
+	border: 2px solid #f4f4f4;
+	box-shadow: 1px 0px 6px #c0bebe;
+}
+.cont-inr p {
+	/*font-family: 'Open Sans';*/
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 162%;
+	color: rgba(0,0,0,1);
+	margin-bottom: 18px;
+}
+.award .cont-inr p {
+	font-family: 'latoregular';
+	font-weight: normal;
+	line-height: 130%;
+}
+ul.innerlist {
+	list-style-type: disc;
+}
+.innerlist li {
+	display: block;
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-bottom: 5px;
+}
+.list .page-menu li {
+	 padding-top: 8px;
+	 padding-bottom: 10px;
+}
+.cont-inr p.list-bharat-ratna {
+	font-family: 'latobold_italic';
+	font-style: normal;
+	color: rgba(85,83,82,1);
+	font-size: 18px;
+	line-height: normal;
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(204,202,202,1);
+	padding: 0 0 9px;
+	margin: 0 0 25px;
+}
+.cont-inr p.list-bharat-ratna a {
+	font-family: 'latobold_italic';
+	font-style: normal;
+	color: rgba(206,51,14,1);
+	text-decoration: none;
+	background:url(ico-pdf-orang.png) 100% 2px no-repeat;
+	padding: 0 20px 0 0;
+}
+.cont-inr p.list-bharat-ratna a:hover { 
+	color: rgba(206,51,14,1);
+	text-decoration: underline;
+}
+
+blockquote.poem {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+	
+	width: 100%;
+	background: rgba(242,243,243,1);
+	padding: 0;
+	border: none;
+	font-size: 18px;
+	line-height: 28px;
+	color: rgba(20,23,18,1);
+	outline: 0 none;
+	vertical-align: baseline;
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+blockquote.poem span {
+	display: block;
+	margin: 15px 20px;
+	border: 3px solid rgba(255,255,255,1);
+	padding: 32px 40px 42px;
+}
+blockquote.poem li {
+	border-bottom: 1px solid rgba(255,255,255,1);
+	background:url(arrow-blk.png) no-repeat 0 19px;
+	color: rgba(20,23,18,1);
+	text-decoration: none;
+	padding: 9px 0 8px 12px;
+	display: block;
+	font-size: 15px;
+	margin: 0;
+	text-align: left;
+}
+blockquote.poem li:last-child {
+	border: none;
+}
+.cont-inr blockquote.poem strong {
+	font-size: 85%;
+}
+blockquote.poem footer {
+    margin-bottom: 0;
+}
+.page-rows {
+	padding: 3px 12px 20px 15px;
+	clear: both;
+}
+.page-rows > ol {
+    margin: 10px 10px 10px 25px;
+}
+.page-rows ol li {
+    margin-bottom: 20px;
+}
+.page-rows ol ol {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.page-rows ol ol li {
+    list-style-type: lower-roman;
+}
+.page-rows ol ol li {
+	margin-bottom: 15px;
+}
+
+.rowMiddle {
+	padding: 3px 12px 15px 15px;
+	float: left;
+	clear: right;
+}
+.rowMiddle > ol {
+    margin: 0 10px 10px 5px;
+}
+.rowMiddle ol li {
+    margin-bottom: 10px;
+}
+
+
+@media all and (max-width : 639px) {
+	blockquote.poem::before {
+		margin-left: 0;
+   	 	text-align: left;
+		margin-bottom: 8px;
+	}
+	blockquote.poem::after {
+		margin-right: 0;
+		margin-top: 8px;
+	}
+	blockquote.poem {
+		max-width: 280px;
+		padding: 10px 10px 10px 2px;
+		margin: 5px;
+	}
+	.cont-inr .dwnldAnthem {
+		font-size: 16px;
+	}
+	.page-rows ol li {
+		text-align: left;
+	}
+}
+@media all and (max-width : 370px) {
+	.cont-inr .action-row.right .audio-player .audioplayer .audioplayer-time-current {
+		left: 15.11em;
+	}
+}
